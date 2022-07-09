@@ -1,0 +1,259 @@
+html {
+    zoom: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: stolzl, sans-serif;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+body {
+    background-image: url('img/vibin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.blend {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(116, 198, 253, 0.5);
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.main-container {
+    width: 375px;
+    height: 950px;
+    background: rgb(255, 255, 255);
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.top-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(116, 198, 253);
+    border-radius: 2rem 2rem 0 0;
+    z-index: 2;
+}
+
+.img img {
+    width: 240px;
+    height: 240px;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+}
+
+.title {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.title h3 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+.link-container {
+    width: 100%;
+    height: 60%;
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    z-index: 4;
+}
+
+.musik {
+    width: 100%;
+    height: 70%;
+}
+
+
+
+.spotify {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.apple {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-spotify {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.img-spotify img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 125px;
+    height: 40px;
+}
+
+.button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.knopf {
+    width: 130px;
+    height: 35px;
+    border: 0.2px solid rgba(145, 145, 145, 0.5);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    background: transparent;
+    transition: .3s;
+}
+
+.social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.social i {
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(92, 198, 255);
+    transition: .3s;
+}
+
+.icons {
+    margin-left: 20px;
+}
+
+.social i:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.effekt {
+    animation: animate 10s linear infinite;
+    animation-delay: calc(-1s * var(--i));
+    border-radius: 50%;
+}
+
+.fade {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.wave {
+    position: relative;
+    background: url(img/wave.png);
+    width: 100%;
+    height: 50px;
+    background-color: rgb(116, 198, 253);
+}
+button:hover {
+    box-shadow: 0 3px 6px rgb(92, 198, 255);
+    transition: .3s;
+}
+
+/*
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 400px;
+    }
+}
+
+*/
+
+/*
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+}
+
+.bogen1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 5%;
+    left: 25%;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+}
+
+.bogen2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 25%;
+    right: 25%;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+}
+
+.bogen3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 25%;
+    right: 50%;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+}
+
+*/
+
